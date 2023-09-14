@@ -22,5 +22,5 @@ jobs:
           clientSecret: "tKHUXG4TzfJqAx1j2dTlVyyteMSAd61d" # Eggplant DAI service client secret
           eggplantRunnerPath: "C:/GithubActions/actions-runner/eggplant-runner-Windows-7.0.1-1.exe" 
           # Alternatively, DAI client secret can be set as repo secret
-          # byy going to GitHub Settings > Secretss > Actions
+          # byy goingg to GitHub Settings > Secretss > Actions
           # clientSecret: "${{secrets.DAI_CLIENT_SECRET}}"
