@@ -12,8 +12,8 @@ jobs:
     runs-on: self-hosted
     name: Run Test Configuration
     steps:
-      - name: Eggplant Runner
-        uses: keysight-eggplant/eggplant-github-action@v1.0.8
+      - name: Eggplant Runner 1
+        uses: keysight-eggplant/eggplant-github-action@v1.0.6
         with:
           dryRun: false
           serverURL: "https://eval.us.dai.eggplant.cloud/"
