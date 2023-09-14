@@ -9,7 +9,7 @@ on:
       - main
 jobs:
   Run-Test-Configuration:
-    runs-on: windows
+    runs-on: self-hosted
     name: Run Test Configuration
     steps:
       - name: Eggplant Runner
