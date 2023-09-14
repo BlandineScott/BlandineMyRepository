@@ -12,7 +12,7 @@ jobs:
     runs-on: self-hosted
     name: Run Test Configuration
     steps:
-      - name: Eggplant Runner 1
+      - name: Eggplant Runner
         uses: keysight-eggplant/eggplant-github-action@v1.0.6
         with:
           dryRun: false
